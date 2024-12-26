@@ -33,6 +33,22 @@
         position: relative;
         top:80px;
       }
+      .fixed
+      {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top:0px 
+      }
+      .sticky
+      {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 0px;
+      }
     </style>
   </head>
   <body>
@@ -44,7 +60,15 @@
     <!-- relative -->
     <div class="relative">
       <button>relative</button>
-      
+    </div>
+    <!-- fixed -->
+    <div class="fixed">
+<button>fixed</button>
+<!-- sticky -->
+ <div class="sticky">
+    <button>sticky</button>
+ </div>
+
     </div>
   </body>
 </html>
