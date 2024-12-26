@@ -49,6 +49,24 @@
         position: fixed;
         bottom: 0px;
       }
+      .container
+      {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        position: relative;
+        height: 250px;
+        width: 250px;
+      }
+      .absolute
+      {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+bottom: 10px;
+      }
     </style>
   </head>
   <body>
@@ -64,11 +82,16 @@
     <!-- fixed -->
     <div class="fixed">
 <button>fixed</button>
+</div>
 <!-- sticky -->
  <div class="sticky">
     <button>sticky</button>
  </div>
-
-    </div>
+<!-- absolute -->
+ <div class="container">
+     <div class="absolute">
+        <button>absolute</button>
+     </div>
+ </div>
   </body>
 </html>
